@@ -1,2 +1,2 @@
-# bonny-biboni-bot
+# Fish Bot
 Useless bot
