@@ -1,0 +1,11 @@
+{
+    "Cogs.Tools.Admin.AccessDenied": "Доступ закрыт",
+    "Cogs.Tools.Bot.RebootNotification": "Перезагружаюсь",
+    "Cogs.Tools.Bot.ModuleWasRebooted": "Модуль был перезагружен (`{module}`)",
+    "Cogs.Tools.Bot.ModuleNotFound": "Модуль не найден (`{module}`)",
+    "Cogs.Tools.Bot.FailedToRebootModule": "Не удалось перезагрузить модуль ({module})",
+    "Cogs.Tools.Bot.BotInfoTitle": "Лучший бот во всём мире",
+    "Cogs.Tools.Bot.CommandsList": "Список комманд",
+    "Cogs.Tools.Bot.StatusHasBeenSet": "Статус был установлен на {status}",
+    "Cogs.Tools.Bot.UpdatedLocalizationFiles": "Файлы локализации были обновлены"
+}

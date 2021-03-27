@@ -1,0 +1,7 @@
+{
+    "Cogs.Fun.Fun.ScaleArgumentError": "Значение аргумента не должно превышать 10",
+    "Cogs.Fun.Fun.ImageSizeError": "Изображение слишком большое ({w} x {h})",
+    "Cogs.Fun.Fun.ImpactMemeEmptyString": "Напиши что-нибудь",
+    "Cogs.Fun.TextToSpeechList": "Список команд",
+    "Cogs.Fun.WrongCategory": "Неверная категория или файл"
+}

@@ -1,0 +1,11 @@
+{
+    "Cogs.Tools.Admin.AccessDenied": "Access denied",
+    "Cogs.Tools.Bot.RebootNotification": "Cogs.Tools.Bot.RebootNotification",
+    "Cogs.Tools.Bot.ModuleWasRebooted": "Module was rebooted (`{module}`)",
+    "Cogs.Tools.Bot.ModuleNotFound": "Module not found (`{module}`)",
+    "Cogs.Tools.Bot.FailedToRebootModule": "Failed to reboot module ({module})",
+    "Cogs.Tools.Bot.BotInfoTitle": "The best bot in the world",
+    "Cogs.Tools.Bot.CommandsList": "Commands list",
+    "Cogs.Tools.Bot.StatusHasBeenSet": "Status has been set to {status}",
+    "Cogs.Tools.Bot.UpdatedLocalizationFiles": "Updated localization files"
+}

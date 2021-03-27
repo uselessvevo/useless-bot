@@ -1,0 +1,18 @@
+{
+    "Bot.Message": "Сообщение",
+    "Bot.Content": "Содержание",
+    "Bot.Command": "Команда",
+    "Bot.Text": "Текст",
+    "Bot.File": "Файл",
+    "Bot.Edited": "Отредактировано",
+    "Bot.Deleted": "Удалено",
+    "Bot.Before": "До",
+    "Bot.After": "После",
+    "Bot.EventOccurredIn": "{author} в {guild} • {channel}",
+
+    "Bot.Error": "Ошибка",
+    "Bot.PleaseWait": "Пожалуйста, подождите, {member}",
+    "Bot.InvalidInput": "Неправильный ввод в {arg}",
+    "Bot.BadCommandArgument": "Ошибка аргумента {arg}",
+    "Bot.CommandNotFound": "Команда `{arg}` не найдена"
+}

@@ -1,0 +1,46 @@
+{
+    "who": [
+        "кто"
+    ],
+    "when": [
+        "когда"
+    ],
+    "russian_roulette": [
+        "rr",
+        "roulette",
+        "рр",
+        "рулетка"
+    ],
+    "russian_roulette.add_room": [
+        "AddRoom",
+        "add",
+        "НоваяКомната",
+        "добавить"
+    ],
+    "russian_roulette.join_room": [
+        "join",
+        "enter",
+        "play",
+        "войти",
+        "играть"
+    ],
+    "russian_roulette.leave_room": [
+        "leave",
+        "выйти"
+    ],
+    "russian_roulette.spin_bar": [
+        "roll",
+        "go",
+        "крутить",
+        "го"
+    ],
+    "russian_roulette.rooms_list": [
+        "rooms",
+        "list",
+        "groups",
+        "комнаты",
+        "группы",
+        "список",
+        "лист"
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "Bot.Message": "Message",
+    "Bot.Content": "Content",
+    "Bot.Command": "Command",
+    "Bot.Text": "Text",
+    "Bot.File": "File",
+    "Bot.Edited": "Edited",
+    "Bot.Deleted": "Deleted",
+    "Bot.Before": "Before",
+    "Bot.After": "After",
+    "Bot.EventOccurredIn": "{author} in {guild} • {channel}",
+    "Bot.Error": "Error",
+    "Bot.PleaseWait": "Please wait, {member}",
+    "Bot.InvalidInput": "Invalid input {arg}",
+    "Bot.BadCommandArgument": "Bad command argument {arg}",
+    "Bot.CommandNotFound": "Command `{arg}` not found"
+}

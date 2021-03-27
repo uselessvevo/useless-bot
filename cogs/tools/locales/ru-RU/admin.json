@@ -1,0 +1,6 @@
+{
+    "Cogs.Tools.Admin.SameLocale": "Это тот же язык",
+    "Cogs.Tools.Admin.PrefixHasBeenSet": "Префикс был установлен на **{prefix}**",
+    "Cogs.Tools.Admin.LocaleHasBeenSet": "Язык был установлен на **{locale}**",
+    "Cogs.Tools.Admin.LocaleFormatIsIncorrect": "Locale format must be look like: loc"
+}

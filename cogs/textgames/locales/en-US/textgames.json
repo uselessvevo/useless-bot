@@ -1,0 +1,6 @@
+{
+    "Cogs.TextGames.TextGames.WhenHappened": "It happened {date} at {time}",
+    "Cogs.TextGames.TextGames.WhenWillHappen": "Cogs.TextGames.TextGames.WhenWillHappen",
+    "Cogs.TextGames.TextGames.WhoIsMember": "It will happen in {date} at {time}",
+    "Cogs.TextGames.TextGames.RoomWasCreated": "Room \"{room}\" was created by {user}"
+}

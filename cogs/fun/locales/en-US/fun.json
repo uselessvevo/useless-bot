@@ -1,0 +1,7 @@
+{
+    "Cogs.Fun.Fun.ScaleArgumentError":"The scale argument can't be more than 10",
+    "Cogs.Fun.Fun.ImageSizeError":"Image is too large ({w}x{h})",
+    "Cogs.Fun.Fun.ImpactMemeEmptyString":"Type something",
+    "Cogs.Fun.TextToSpeechList": "Command list",
+    "Cogs.Fun.WrongCategory": "Wrong category or file name"
+}
