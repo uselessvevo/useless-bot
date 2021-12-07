@@ -8,11 +8,12 @@ TODO: Add sql data types
 import os
 import sqlite3
 
-from tools import settings
+from bot import settings
 from tools.fs import touch
 
 
 class GuildsManager:
+
     def __init__(self, file=None):
         self._guild_file = file if file else 'data/guilds.data'
         if not os.path.exists(self._guild_file):
@@ -148,7 +149,7 @@ class GuildsManager:
         """
 
     def __repr__(self):
-        return f'Guild file: {self._guild_file} Guilds (keys): {list(self.guilds.keys())}'
+        return f'({self.__class__.__name__}) <file: {self._guild_file}, guilds: {list(self.guilds.keys())}>'
 
     def __len__(self):
         return len(self.guilds)

@@ -1,0 +1,59 @@
+{
+    "set_guild_locale": [
+        "locale",
+        "язык"
+    ],
+    "set_guild_prefix": [
+        "prefix",
+        "префикс"
+    ],
+    "set_presence": [
+        "presence",
+        "status",
+        "статус"
+    ],
+    "purge_message": [
+        "purge",
+        "delete",
+        "md",
+        "стереть",
+        "ус"
+    ],
+    "get_guilds_in_use": [
+        "guilds",
+        "серверы"
+    ],
+    "restart": [
+        "res",
+        "reset",
+        "рестарт",
+        "рес",
+        "ресет",
+        "заново"
+    ],
+    "reload_module": [
+        "rm",
+        "rel",
+        "перезапуск",
+        "пм"
+    ],
+    "info": [
+        "information",
+        "helpme",
+        "информация",
+        "инфо",
+        "инфа",
+        "справка",
+        "?"
+        ],
+    "guild_info": [
+        "server",
+        "сервер",
+        "гильдия"
+    ],
+    "reload_translations": [
+        "rtr",
+        "перевод",
+        "ОбновитьПеревод"
+    ]
+}

@@ -1,5 +1,0 @@
-{
-    "Cogs.TextGames.TextGames.WhenHappened": "Это произошло {date} в {time}",
-    "Cogs.TextGames.TextGames.WhenWillHappen": "Это произойдёт {date} в {time}",
-    "Cogs.TextGames.TextGames.WhoIsMember": "Я думаю, {member} {action}"
-}

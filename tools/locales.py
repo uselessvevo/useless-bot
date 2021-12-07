@@ -14,7 +14,7 @@ from tools.fs import get_filename_path
 from tools.fs import normalize_module_path
 
 # Management
-from tools import settings
+from bot import settings
 from tools.guilds import Guilds
 
 
@@ -22,7 +22,7 @@ class Locales:
     translations = {'alias': {}}
 
     @classmethod
-    def load_translations(cls, locales=None, module_paths=None):
+    def load_cogs_translations(cls, locales=None, module_paths=None):
         if not locales:
             locales = {g.get('locale') for g in Guilds.guilds.values()}
 
@@ -59,7 +59,7 @@ class Locales:
                 )
 
     @classmethod
-    def load_aliases(cls, modules=None):
+    def load_cogs_aliases(cls, modules=None):
         if not modules:
             modules = {
                 get_filename_path(normalize_module_path(m))

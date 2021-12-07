@@ -21,7 +21,7 @@ from tools.locales import Locales
 from tools.discord import ModifiedHelpCommand
 from tools.discord import set_presence
 
-from tools import settings
+from bot import settings
 from tools.guilds import Guilds
 
 
@@ -78,8 +78,8 @@ class BotManagement(commands.Cog):
             cogs = [f'cogs.{i}' for i in cogs]
 
         # First, we need to reload localization files
-        Locales.load_aliases(cogs)
-        Locales.load_translations(module_paths=cogs)
+        Locales.load_cogs_aliases(cogs)
+        Locales.load_cogs_translations(module_paths=cogs)
         await ctx.send(tr('Cogs.Tools.Bot.UpdatedLocalizationFiles', ctx, 'bookmark', 1))
 
         message = ''
@@ -106,8 +106,8 @@ class BotManagement(commands.Cog):
     @commands.command(aliases=alias('reload_translations'), pass_context=True)
     @commands.is_owner()
     async def reload_translations(self, ctx):
-        Locales.load_aliases()
-        Locales.load_translations()
+        Locales.load_cogs_aliases()
+        Locales.load_cogs_translations()
         await ctx.send(tr('Cogs.Tools.Bot.UpdatedLocalizationFiles', ctx, 'bookmark', 1))
 
     @commands.command(aliases=alias('set_presence'), pass_context=True)

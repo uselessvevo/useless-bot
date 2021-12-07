@@ -48,7 +48,7 @@ class Administration(commands.Cog):
                 await ctx.send(tr('Cogs.Tools.Admin.SameLocale', ctx))
             else:
                 Guilds.update_guild(ctx.message.guild.id, locale=locale)
-                Locales.load_translations(locale)
+                Locales.load_cogs_translations(locale)
 
                 await ctx.send(tr('Cogs.Tools.Admin.LocaleHasBeenSet', ctx, locale=locale))
         else:

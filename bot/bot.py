@@ -4,7 +4,7 @@ from datetime import datetime
 import discord
 from discord.ext import commands
 
-from tools import settings
+from bot import settings
 from tools.locales import tr
 from tools.guilds import Guilds
 from tools.discord import set_presence
@@ -15,7 +15,7 @@ class UselessBot(commands.Bot):
     def __init__(self):
         super().__init__(
             command_prefix=self._get_prefix,
-            case_insensitive=settings.CASE_SENSETIVE,
+            case_insensitive=settings.CASE_SENSITIVE,
         )
         
         for module in getattr(settings, 'COGS', []):
@@ -216,5 +216,5 @@ class UselessBot(commands.Bot):
     # Tasks
 
     async def on_ready(self):
-        self.loop.create_task(set_presence(bot=self, presence=0))
+        self.loop.create_task(set_presence(bot=self, presence='online'))
         print('* Ready')

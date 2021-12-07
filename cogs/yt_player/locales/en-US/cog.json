@@ -1,0 +1,6 @@
+{
+    "Cogs.Tools.Admin.AccessDenied":"Access denied",
+    "Cogs.Tools.Admin.SameLocale": "It is the same locale",
+    "Cogs.Tools.Admin.PrefixHasBeenSet":"Prefix has been set to **{prefix}**",
+    "Cogs.Tools.Admin.LocaleHasBeenSet":"Locale has been set to **{locale}**"
+}
