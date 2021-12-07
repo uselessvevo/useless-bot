@@ -13,5 +13,6 @@
     "Bot.PleaseWait": "Please wait, {member}",
     "Bot.InvalidInput": "Invalid input {arg}",
     "Bot.BadCommandArgument": "Bad command argument {arg}",
-    "Bot.CommandNotFound": "Command `{arg}` not found"
+    "Bot.CommandNotFound": "Command `{arg}` not found",
+    "Bot.CommandInvokeError": "An error occurred"
 }

@@ -14,5 +14,6 @@
     "Bot.PleaseWait": "Пожалуйста, подождите, {member}",
     "Bot.InvalidInput": "Неправильный ввод в {arg}",
     "Bot.BadCommandArgument": "Ошибка аргумента {arg}",
-    "Bot.CommandNotFound": "Команда `{arg}` не найдена"
+    "Bot.CommandNotFound": "Команда `{arg}` не найдена",
+    "Bot.CommandInvokeError": "Произошла ошибка"
 }
